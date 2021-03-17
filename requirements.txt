@@ -1,0 +1,6 @@
+django
+beautifulsoup4
+tqdm
+pymongo
+dsnpython
+requests
