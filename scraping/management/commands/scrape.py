@@ -5,8 +5,10 @@ from bs4 import BeautifulSoup
 import requests
 from tqdm import tqdm
 
+user = os.environ['db_user']
+pw = os.environ['db_pw']
 # initializing the database connection
-client = pymongo.MongoClient(f'mongodb+srv://xristos:junkfood@bc01-muwwi.gcp.mongodb.net/test?retryWrites=true&w=majority')
+client = pymongo.MongoClient(f'mongodb+srv://{user}:{pw}@bc01-muwwi.gcp.mongodb.net/test?retryWrites=true&w=majority')
 db = client.BC02
 collection = db.artistInfo
 
