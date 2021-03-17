@@ -2,5 +2,5 @@ django
 beautifulsoup4
 tqdm
 pymongo
-dsnpython
+dnspython
 requests
