@@ -4,6 +4,7 @@ import pymongo
 from bs4 import BeautifulSoup
 import requests
 from tqdm import tqdm
+import os
 
 user = os.environ['db_user']
 pw = os.environ['db_pw']
